@@ -3,7 +3,7 @@ import LogoIcon from '@/assets/icons/LogoIcon.vue';
 import GitHubIcon from '@/assets/icons/GitHubIcon.vue';
 import { ROUTE_NAME_USERS_LIST_PAGE } from '@/constants/routes';
 
-const githubLink = 'github.com/bac1lla';
+const githubLink = 'github.com/bac1lla/rusklimat';
 </script>
 
 <template>
