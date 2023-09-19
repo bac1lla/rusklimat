@@ -1,0 +1,45 @@
+#app {
+  // Fonts
+  --font-family: Inter, sans-serif;
+  --font-size: 16px;
+  --line-height: 18px;
+
+  // Colors
+  --element-background-color: #f7f7f9;
+  --main-color: #333;
+  --primary-color: rgba(0, 79, 199, 0.66);
+  --secondary-color: #44534f;
+  --font-color: #4a4a4a;
+  --border-color: #e0e0e0;
+  --link-color: #1e97c1;
+  --disable-color: #e0e0e0;
+
+  // Sizes
+  --main-contaier-size: 1312px;
+
+  // Icons
+  --icon-width: 24px;
+  --icon-height: 24px;
+
+  // Buttons
+  --button-focus-color: #559fc2;
+
+  --primary-btn-text-color: white;
+  --primary-btn-bg-color: var(--primary-color);
+  --primary-btn-hover-text-color: var(--primary-btn-text-color);
+  --primary-btn-hover-bg-color: var(--primary-color);
+  --primary-btn-disabled-text-color: rgba(0, 0, 0, 0.25);
+  --primary-btn-disabled-bg-color: #e0e0e0;
+  --primary-btn-active-bg-color: var(--primary-color);
+  --primary-btn-active-box-shadow: inset 1px 2px 3px #344f47;
+
+  --secondary-btn-color: var(--secondary-color);
+  --secondary-btn-active-color: black;
+  --secondary-btn-disabled-color: #7a7a7a;
+  --secondary-btn-active-bg-color: rgba(0, 42, 180, 0.35);
+  --secondary-btn-disabled-bg-color: rgba(59, 59, 59, 0.29);
+
+  // Borders
+  --primary-border: 1px solid var(--primary-btn-bg-color);
+  --focus-line: 1px solid var(--button-focus-color);
+}
